@@ -1,0 +1,86 @@
+<style>
+*{box-sizing: border-box;}
+body>h1{text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-size: 175%;}
+#Lorep{background-color: hsl(0, 5%, 88%);
+    margin: 10px;
+    border: solid black 2px;
+    padding: 10px;
+}
+#firstH1{
+    background-color: #f3769c;
+    width: 40%;
+    height: 30%;
+    border: 2px solid black;
+    float: right;
+    margin: 0;
+    padding: 5px;
+   position:relative;
+   top: -12px;
+   right: -12px;
+   font-family: 'Courier New', Courier, monospace;
+font-size: 125%;
+text-align: center;
+    
+} 
+#lorep{position: relative;
+      }
+#Sorem{background-color: #bebdbd;
+    margin: 10px;
+    border: solid black 2px;
+    padding: 10px;
+}
+#secondH1{
+    background-color: hsl(128, 87%, 42%);
+    width: 40%;
+    height: 30%;
+    border: 2px solid black;
+    float: right;
+    margin: 0;
+    position:relative;
+   top: -12px;
+   right: -12px;
+   padding: 5px;
+   font-family: 'Courier New', Courier, monospace;
+    font-size: 125%;
+    text-align: center;
+    
+} #Zepin{background-color: #868484;
+    margin: 10px;
+    border: solid black 2px;
+    padding: 10px;
+}
+#thirdH1{
+    background-color: rgb(197, 248, 10);
+    width: 40%;
+    height: 30%;
+    border: 2px solid black;
+    float: right;
+    margin: 0px;
+    position:relative;
+   top: -12px;
+   right: -12px;
+   padding: 5px;
+   font-family: 'Courier New', Courier, monospace;
+     font-size: 125%;
+    text-align: center;
+    
+}
+     @media(max-width:767){
+        .cl-sm-12{
+           width:90%; float: left; 
+        }
+    }
+    
+    @media(min-width:768px) and (max-width:991px){
+         .cl-mid-6{
+           width:50%; float:left; 
+        }
+    }
+    @media(min-width:992px) {
+        .cl-lg-4{
+           width:33.33%; float: left; 
+        }
+    }
+</style>
